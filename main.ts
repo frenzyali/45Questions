@@ -1,11 +1,11 @@
-// Question: 1
+// Question:1
 // console.log("Hello World");
 
-// Question: 2
+// Question:2
 // let message = "Ali";
 // console.log("Hey " + message + ", Would you like to learn some programming?");
 
-// Question: 3
+// Question:3
 // let Name = "Ali Hussain";
 // console.log(Name.toLowerCase());
 // console.log(Name.toUpperCase());
