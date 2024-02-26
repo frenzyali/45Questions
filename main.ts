@@ -195,3 +195,175 @@
 // }
 
 
+
+// Question: 21
+// let car = {
+//     model: "Civic",
+//     company: "Honda",
+//     year: "2022"
+// };
+// console.log(car);
+
+
+
+// Question: 22
+// let fruits = ["Apple", "Banana", "Mango"];
+// console.log(fruits[3]);
+// gives "undefined" as output which can be considered as index error in typescript.
+
+
+
+// Question: 23
+// let myName = "Ali";
+// console.log("Is myName == 'Ali'? I predict true");
+// console.log(myName == 'Ali');
+// let myAge = 16;
+// console.log("Is myAge == '14'? I predict false");
+// console.log(myAge == 14);
+// let myGender = "Male";
+// console.log("Is myGender == 'Male'? I predict true");
+// console.log(myGender == 'Male');
+// let myNationality = "Pakistani";
+// console.log("Is myNationality == 'Dutch'? I predict false");
+// console.log(myNationality == 'Dutch');
+// let myReligion = "Islam";
+// console.log("Is myReligion == 'Islam'? I predict True");
+// console.log(myReligion == 'Islam');
+// let myWeight = 62;
+// console.log("Is myWeight == '50'? I predict false");
+// console.log(myWeight == 50);
+// let myHeight = "5'11";
+// console.log("Is myHeight == '5'11'? I predict True");
+// console.log(myHeight == "5'11");
+// let myHobby = "Gaming";
+// console.log("Is myHobby == 'Sports'? I predict false");
+// console.log(myHobby == 'Sports');
+// let mySkinColor = "Brown";
+// console.log("Is mySkinColor == 'Brown'? I predict true");
+// console.log(mySkinColor == 'Brown');
+// let myLanguage = "Urdu";
+// console.log("Is myLanguage == 'German'? I predict false");
+// console.log(myLanguage == 'German');
+
+
+
+// Question: 24
+// let myName = "Syed Ali Hussain";
+// if(myName == "Syed Ali Hussain"){
+//     console.log("Hello Syed Ali Hussain");
+// }else{
+//     console.log("Hello unknown person");
+//  }
+// if(myName.toLowerCase() == "Syed Ali Hussain"){
+//     console.log("Hello Syed Ali Hussain");
+// }else{
+//     console.log("Hello syed ali hussain of lowercase");
+// }
+// let myAge = 16;
+// if(myAge >= 10){
+//     console.log("You are eligible for the ride");
+// }else{
+//     console.log("You aren't eligible for the ride");
+// }
+// if(myAge >= 18){
+//     console.log("You are eligible for the driving license");
+// }else{
+//     console.log("You aren't eligible for the driving license");
+// }
+// let myWeight = 62;
+// if(myAge <= 17 && myWeight <= 70){
+//     console.log("You are eligible for the dodging car");
+// }else{
+//     console.log("You are not eligible for the dodging car");
+// }
+// if(myAge <= 13 && myWeight <= 45){
+//     console.log("You are eligible for the bouncy castle");
+// }else{
+//     console.log("You are not eligible for the bouncy castle");
+// }
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// // let isPineapplePresent: boolean = false;
+// // for (let fruit of fruits) {
+// //     if (fruit === "Pineapple") {
+// //         isPineapplePresent = true;
+// //         break; 
+// //     }
+// // }
+// // if (isPineapplePresent) {
+// //     console.log("Pineapple is in the array.");
+// // } else {
+// //     console.log("Pineapple is not in the array.");
+// // }
+// let isApplePresent: boolean = false;
+
+// for (let fruit of fruits) {
+//     if (fruit === "Apple") {
+//         isApplePresent = true;
+//         break; // Once found, no need to continue iterating
+//     }
+// }
+
+// if (isApplePresent) {
+//     console.log("Apple is in the array.");
+// } else {
+//     console.log("Apple is not in the array.");
+// }
+
+
+
+// Question: 25
+// let alien_color = "Green"
+// if(alien_color == "Green"){
+//     console.log("The player just earned five points");
+// }
+// if(alien_color == "red"){
+
+// }
+
+
+
+// Question: 26
+// let alien_color = "Yellow"
+// if (alien_color == "Green") {
+//     console.log("The player just earned five points");
+// } else {
+//     console.log("The player just earned ten points");
+// }
+
+// if(alien_color == "Yellow"){
+//     console.log("The player just earned five points");
+// }else{
+//     console.log("The player just earned ten points");
+// }
+
+
+
+// Question: 27
+// let alien_color = "Green"
+// if(alien_color == "Green"){
+//     console.log("The player just earned five points");
+// }else if(alien_color == "Yellow"){
+//     console.log("The player just earned ten points");
+// }else if(alien_color == "Red"){
+//     console.log("The player just earned fifteen points");
+// }
+// alien_color = "Yellow"
+// if(alien_color == "Green"){
+//     console.log("The player just earned five points");
+// }else if(alien_color == "Yellow"){
+//     console.log("The player just earned ten points");
+// }else if(alien_color == "Red"){
+//     console.log("The player just earned fifteen points");
+// }
+// alien_color = "Red"
+// if(alien_color == "Green"){
+//     console.log("The player just earned five points");
+// }else if(alien_color == "Yellow"){
+//     console.log("The player just earned ten points");
+// }else if(alien_color == "Red"){
+//     console.log("The player just earned fifteen points");
+// }
+
+
+
+// Question: 28
