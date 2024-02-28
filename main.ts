@@ -20,7 +20,7 @@
 // Question: 5
 // let AuthorName = "Sun Tzu";
 // let Quote = "In order to know your enemy, you must become your enemy";
-// console.log(AuthorName + ' once said,' + ' "' + Quote + '."');
+// console.log(`${AuthorName} once said, "${Quote}"`);
 
 
 
@@ -367,3 +367,113 @@
 
 
 // Question: 28
+// let age = 15;
+// if(age < 2){
+//     console.log("The person is a baby");
+// }else if(age >= 2 && age <= 4){
+//     console.log("The person is a toddler");
+// }else if(age >= 4 && age <= 13){
+//     console.log("The person is a kid");
+// }else if(age >= 13 && age <= 20){
+//     console.log("The person is a teenager");
+// }else if(age >= 20 && age <= 65){
+//     console.log("The person is an adult");
+// }else if(age >= 65){
+//     console.log("The person is an elder");
+// }
+
+
+// Question: 29
+// let favourite_fruits = ["Apple", "Grapes", "Pineapple"];
+// for(let fruit of favourite_fruits){
+//     if(fruit == "Banana"){
+//         console.log("You really like bananas");
+//     }else if(fruit == "Apple"){
+//         console.log("You really like apples");
+//     }else if(fruit == "Mango"){
+//         console.log("You really like mangoes");
+//     }else if(fruit == "Pineapple"){
+//         console.log("You really like pineapples");
+//     }else if(fruit == "Grapes"){
+//         console.log("You really like grapes");
+//     }
+// }
+
+
+
+// Question: 30
+// let account_names = ["John", "Ali", "Admin", "Michael", "Eric"];
+// for(let account of account_names){
+//     if(account == "Admin"){
+//         console.log("Hello Admin, would you like to view the report?");
+//     }else{
+//         console.log(`Hello ${account}, how are you doing today?`);
+//     }
+// }
+
+
+
+// Question: 31
+// let account_names = ["John", "Ali", "Admin", "Michael", "Eric"];
+
+// if (account_names.length > 0) {
+//     for (let account of account_names) {
+//         if (account == "Admin") {
+//             console.log("Hello Admin, would you like to view the report?");
+//         } else {
+//             console.log(`Hello ${account}, how are you doing today?`);
+//         }
+//     }
+// } else {
+//     console.log("We need to find some users!");
+// }
+
+
+
+// Question: 32
+// let current_users = ["Ali", "Hasan", "Ahmad", "Junaid", "Maroof"];
+// let new_users = ["Dabeer", "Hasan", "Ahmad", "Aamir", "Saif"];
+
+// for (let user of new_users){
+//     let SameUsernamefound = false;
+//     for(let existingUser of current_users){
+//         if(user === existingUser){
+//             SameUsernamefound = true;
+//             break;
+//         }
+//     }
+//     if (SameUsernamefound){    // ==> This code checks if SameUsernameFound boolean is true or false, 
+                                  //  if it is true then it executes the if BLOCK and if it is false
+                                  // then it executes the ELSE BLOCK
+//         console.log(`The username ${user} is not available`);
+//     }else{
+//         console.log(`The username ${user} is available`);
+//     }
+// }
+
+
+
+// Question: 33
+// let numbers: number[] = [1,2,3,4,5,6,7,8,9];
+// for(let num of numbers){
+//     if(num == 1){
+//         console.log(`${num}st`);
+//     }else if(num == 2){
+//         console.log(`${num}nd`);
+//     }else if(num == 3){
+//         console.log(`${num}rd`);
+//     }else{
+//         console.log(`${num}th`);
+//     }
+// }
+
+
+
+// Question: 34
+// let favourite_pizza : string[] = ["Deep Dish Pizza", "Fajita Pizza", "Pepperoni Pizza"];
+// for(let pizza of favourite_pizza){
+//     console.log(`I really like to eat ${pizza}.`);
+// }
+// console.log("I really like to eat pizza and it's one of my favourite type of dishes. I really love eating pizza alot.\n");
+// console.log("I really like eating types of pizza which have thick crust like deep dish pizza and pizza's which contain alot of meat.\n");
+// console.log("I really love eating pizza");
