@@ -477,3 +477,199 @@
 // console.log("I really like to eat pizza and it's one of my favourite type of dishes. I really love eating pizza alot.\n");
 // console.log("I really like eating types of pizza which have thick crust like deep dish pizza and pizza's which contain alot of meat.\n");
 // console.log("I really love eating pizza");
+
+
+
+
+// Question: 35
+// let animal_list: string[] = ["Lion", "Cheetah", "Wolf"];
+// for(let animal of animal_list){
+//     if(animal == "Lion"){
+//         console.log("Lion is the King of the Jungle.");
+//     }else if(animal == "Cheetah"){
+//         console.log("Cheetah is the fastest land animal in the world.");
+//     }else{
+//         console.log("Wolf is known for their ability to blend in with their prey.");
+//     }
+// }
+// console.log("The common characteristic between these animals is that they are all ferocious and dangerous wild animals that should be treated with utmost care.");
+
+
+
+
+// Question: 36
+// function make_shirt(size: string, message: string): void{
+//     console.log(`You are trying to create a shirt with size "${size}" and the message that goes on it is: ${message}`);
+// }
+// make_shirt("Large", "Hello, Syed Ali Hussain");
+
+
+
+// Question: 37
+// function make_shirt(size: string = "Large", message: string = "I love TypeScript"): void {
+//     console.log(`You are trying to create a shirt with size "${size}" and the message that goes on it is : "${message}"`);
+// }
+
+// // Making a large shirt with the default message
+// make_shirt();
+
+// // Making a medium shirt with the default message
+// make_shirt("Medium");
+
+// // Making a shirt of any size with a different message
+// make_shirt("Small", "Hello, TypeScript!");
+
+
+
+// Question: 38
+// function describe_city(city_name: string, country_name: string = "Pakistan"): void{
+//     console.log(`${city_name} is situated in ${country_name}`);
+// }
+
+// describe_city("Karachi");
+
+// describe_city("Istanbul", "Turkey");
+
+// describe_city("Jeddah", "Saudia Arab");
+
+
+
+// Question: 39
+// function city_country(city_name: string, country_name: string): void{
+//     console.log(`${city_name}, ${country_name}`);
+// }
+
+// city_country("Karachi", "Pakistan");
+
+// city_country("Dubai", "United Arab Emirates");
+
+// city_country("Tokyo", "Japan");
+
+
+
+// Question: 40
+// function make_album(artist: string, title: string, tracks?: number): { artist: string, title: string, tracks?: number } {
+//     let album: { artist: string, title: string, tracks?: number } = {
+//         artist: artist,
+//         title: title,
+//     };
+//     if (tracks !== undefined) {
+//         album.tracks = tracks;
+//     }
+    
+
+//     return album;
+// }
+
+// let album1 = make_album("Artist 1", "Album 1", 10);
+// let album2 = make_album("Artist 2", "Album 2");
+// let album3 = make_album("Artist 3", "Album 3", 15);
+
+// console.log(album1);
+// console.log(album2);
+// console.log(album3);
+
+
+
+// Question: 41
+// let magician_names: string[] = ["Harry Houdini", "David Copperfield", "Doug Henning", "Derren Brown"];
+
+// function show_magicians(magicians: string[]): void{
+//     for(let magician of magicians){
+//         console.log(magician)
+//     }
+// }
+
+// show_magicians(magician_names);
+
+
+
+// Question: 42
+// let magician_names: string[] = ["Harry Houdini", "David Copperfield", "Doug Henning", "Derren Brown"];
+
+// function make_great(magicians: string[]): void{
+//     for (let i = 0; i < magicians.length; i++) {
+//         magicians[i] += " the Great";
+// }
+// }
+
+// function show_magicians(magicians: string[]): void{
+//     for(let magician of magicians){
+//         console.log(magician)
+//     }
+// }
+
+// make_great(magician_names)
+// show_magicians(magician_names);
+
+
+
+// Question: 43
+// let magician_names: string[] = ["Harry Houdini", "David Copperfield", "Doug Henning", "Derren Brown"];
+
+// function make_great(magicians: string[]): string[] {
+//     let greatMagicians: string[] = [];
+//     for (let i = 0; i < magicians.length; i++) {
+//         greatMagicians.push(magicians[i] + " the Great");
+//     }
+//     return greatMagicians;
+// }
+
+// function show_magicians(magicians: string[]): void {
+//     for (let magician of magicians) {
+//         console.log(magician);
+//     }
+// }
+
+// let copyMagicians: string[] = [...magician_names];
+// let greatMagicians: string[] = make_great(copyMagicians);
+
+// console.log("Original Magicians:");
+// show_magicians(magician_names);
+
+// console.log("\nGreat Magicians:");
+// show_magicians(greatMagicians);
+
+
+
+// Question: 44
+// function orderSandwich(...items: string[]): void {
+//     console.log("Syed Ali Hussain will be making a sandwhich with the following items: ");
+//     items.forEach(item => console.log("- " + item));
+//     console.log("Enjoy your sandwich!\n");
+// }
+
+
+// orderSandwich('Grilled Beef', 'Cheese', 'Lettuce');
+// orderSandwich('Turkey', 'Swiss Cheese');
+// orderSandwich('Nutella', 'Butter');
+
+
+
+// Question: 45
+// type Car = {
+//     manufacturer_car: string;
+//     model_car: string;
+//     color_car?: string;
+//     year_car?: number;
+// };
+
+// function generate_car(manufacturer: string, model_name: string, color?: string, year?: number): Car{
+//     let Car: Car = {
+//         manufacturer_car: manufacturer,
+//         model_car: model_name
+//     };
+
+//     if(color !== undefined){
+//         Car.color_car = color;
+//     }
+//     if(year !== undefined){
+//         Car.year_car = year;
+//     }
+//     return Car;
+// }
+
+// let Car1 = generate_car("Honda", "Civic");
+// let Car2 = generate_car("Toyota", "Corolla", "Black", 2017);
+// console.log(Car1);
+// console.log(Car2);
